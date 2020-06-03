@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    color: #7e7d7d;
+    background-image: url(../images/background-image.jpg);
+    margin: 0 0 100px;
+}
+p,
+form,
+input {
+    text-align: left;
+}
+
+
+a:link {
+    color: red;
+}
+
+
+
+a:visited {
+    color: rgb(65, 5, 65);
+}
+
+
+a:hover {
+    color: rgb(114, 126, 221);
+}
+
+
+
+a:active {
+    color: rgb(241, 197, 19);
+}
+
+header {
+    font-family: Times, serif;
+    background: #f3f1f1;
+    border: 1px solid #cccaca;
+    margin-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+section {
+    background: rgb(194, 192, 192);
+}
+
+li {
+    float: left;
+}
+
+div {
+    float: left;
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 30px;
+    margin: 10px;
+}
+
+footer {
+    border: 1px solid #636262;
+    border-top-color: #449e9a;
+    border-top-width: 10px;
+    background: rgb(126, 125, 125);
+    font-size: 12px;
+    color: #ffffff;
+    clear: both;
+    padding-top: 40px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+
+img {
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    height: 60px;
+    width: 60px;
+}
+
+span {
+    color: rgb(243, 9, 9);
+    font: bold;
+}
+
+input {
+    width: 440px;
+    color: #dddbdb;
+}
+
+.profile_pic {
+    width: 150px;
+    height: 170px;
+}
+
+.portfolio-pic {
+    width: 150px;
+    height: 160px;
+    margin: 30px;
+}
+
+.content-headings {
+    color: #49a7a2;
+    font-weight: bold;
+}
+
+#submit {
+    background: #459e9a;
+    color: #fff;
+    width: 110px;
+    text-align: center;
+}
+
+#noright {
+    margin-left: 200px;
+    float: left;
+    background: #48a7a2;
+    color: #fff;
+    padding: 22px;
+    margin-top: -30px;
+}
+
+#noleft {
+    margin-right: 200px;
+    float: right;
+    background: #fff;
+    color: black;
+    padding: 22px;
+    margin-top: -30px;
+}
+
+#noright-content {
+    margin-left: 200px;
+    border-style: #dddddd;
+    width: 500px;
+    float: left;
+}
+
+#noleft-content {
+    width: 270px;
+    float: right;
+    margin-right: 200px;
+}
